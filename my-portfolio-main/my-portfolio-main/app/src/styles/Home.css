@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+.home{
+    color: var(--start-page-text);
+    position: relative;
+    top: 150px;
+}
+
+.home h1{
+
+    font-size: 60px;
+    margin-left: 110px;
+    font-family: 'Marck Script', cursive;
+    letter-spacing: 3px;
+}
+
+.home h3{
+    font-size: 30px;
+    margin-left: 45px;
+    margin-top: -40px;
+} 
+.read-btn{
+    background-color: var(--start-page-button);
+    color: rgba(0, 0, 0, 0.767);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 125px;
+}
+.read-btn:hover{
+    background-color:var(--start-page-button-hover);
+}
+@media screen and (max-width: 960px){
+    .home h3{
+        font-size: 25px;
+    }
+    .home h1{
+        position: relative;
+        right: 25px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+.home{
+    top: 300px;
+}
+
+}
